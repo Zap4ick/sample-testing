@@ -6,7 +6,7 @@ import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-@WireMockTest(httpPort = 8080) // Запускает сервер на localhost:8080
+@WireMockTest(httpPort = 8080)
 public class LocalApiTest {
 
     @Test

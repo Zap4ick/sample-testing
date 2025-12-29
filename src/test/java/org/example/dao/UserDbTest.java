@@ -29,7 +29,5 @@ class UserDbTest {
 
         UserDto userFromDb = userDAO.findById(1L).orElseThrow();
         assertThat(userFromDb).isEqualTo(user);
-        // Здесь мы бы использовали findById для проверки (Assertion)
-        Assertions.assertNotNull(user);
     }
 }

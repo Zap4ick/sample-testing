@@ -1,0 +1,1 @@
+This is a sample project with DB access (Dao/Dto), wiremock and restassured ready.

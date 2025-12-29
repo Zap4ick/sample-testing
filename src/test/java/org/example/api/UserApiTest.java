@@ -23,10 +23,9 @@ public class UserApiTest {
                 .when()
                 .post("/users")
                 .then()
-                .statusCode(201) // Проверка HTTP статуса
+                .statusCode(201)
                 .body("name", equalTo("QA Automation Engineer"));
 
-        // 2. GET - Получаем пользователя
         given()
                 .pathParam("id", 1)
                 .when()
