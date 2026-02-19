@@ -16,7 +16,7 @@ dependencies {
     implementation("org.projectlombok:lombok:1.18.42")
     implementation("com.sparkjava:spark-core:2.9.4")
 
-    testImplementation("org.junit.jupiter:junit-jupiter:6.0.1")
+    testImplementation("org.junit.jupiter:junit-jupiter:6.0.3")
     testImplementation("org.assertj:assertj-core:3.27.6")
     testImplementation("io.rest-assured:rest-assured:6.0.0")
     testImplementation("com.fasterxml.jackson.core:jackson-databind:2.20.1")
