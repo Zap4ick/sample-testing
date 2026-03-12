@@ -13,7 +13,7 @@ repositories {
 
 dependencies {
     implementation("com.h2database:h2:2.4.240")
-    implementation("org.projectlombok:lombok:1.18.42")
+    implementation("org.projectlombok:lombok:1.18.44")
     implementation("com.sparkjava:spark-core:2.9.4")
 
     testImplementation("org.junit.jupiter:junit-jupiter:6.0.1")
@@ -23,7 +23,7 @@ dependencies {
     testImplementation("org.wiremock:wiremock-standalone:3.13.2")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 
-    annotationProcessor("org.projectlombok:lombok:1.18.42")
+    annotationProcessor("org.projectlombok:lombok:1.18.44")
 }
 
 tasks.test {
