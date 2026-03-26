@@ -19,7 +19,7 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter:6.0.1")
     testImplementation("org.assertj:assertj-core:3.27.6")
     testImplementation("io.rest-assured:rest-assured:6.0.0")
-    testImplementation("com.fasterxml.jackson.core:jackson-databind:2.20.1")
+    testImplementation("com.fasterxml.jackson.core:jackson-databind:2.21.2")
     testImplementation("org.wiremock:wiremock-standalone:3.13.2")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 
